@@ -4,6 +4,8 @@ body{
 }
 
 
+/* ------------------MOBILE CODE-------------------- */
+
 @media (min-width:320px) and (max-width: 480px){
 
   /* Containers */
@@ -164,3 +166,508 @@ body{
   }
 
 }
+
+/* ------------------TABLET CODE-------------------- */
+
+@media (min-width:481px) and (max-width: 768px){
+
+  /* Containers */
+
+  .container{
+    position: relative;
+    padding: 10% 8%;
+    max-width: 100%;
+  }
+
+  .col-3{
+  flex: 0 0 auto;
+  width: 15%;
+  }
+
+
+  /* Main Button */
+
+  .main-btn{
+    position: fixed;
+    height: 3.6rem;
+    width: 83%;
+    border-radius: 1rem;
+    bottom: 2rem;
+    background-color: #202020;
+    color: white;
+    line-height: 3.6rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 500;
+    -webkit-box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  -moz-box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  }
+
+
+  /* Sections */
+
+  #header-section{
+    position: relative;
+  }
+
+  #title-section{
+    position: relative;
+    margin-top: 3rem;
+  }
+
+  #image-section{
+    margin-top: 2.5rem;
+  }
+
+  #extraimage-section{
+    margin-top: 2.5rem;
+  }
+
+  #extraimage-section .row{
+    justify-content: center;
+  }
+
+  #info-section{
+    margin-top: 2.6rem;
+    padding-bottom: 3rem;
+  }
+
+
+  /* Headers */
+
+  h1{
+    font-family: Playfair;
+    font-weight: 800;
+    font-size: 1.8rem;
+  }
+
+  h4{
+    font-family: Montserrat;
+    font-size:1.1rem;
+    font-weight: 700;
+  }
+
+  h5{
+    margin: 0;
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 3.1rem
+  }
+
+  h6{
+    display: inline-block;
+    background-color: #5599FF;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.3rem 0.8rem;
+    margin-top: 0.3rem;
+    border-radius: 0.3rem;
+  }
+
+  p{
+    margin-top: 1rem;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #BEBEBE;
+    line-height: 1.5;
+  }
+
+
+  .fa-xl{
+    font-size: 1.3em;
+  }
+
+  .fa-regular:hover{
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+    font-weight: 900;
+    transition-timing-function: ease-in-out;
+  }
+
+  .right-align{
+    position: absolute;
+    right: 0;
+    top: 13px;
+  }
+
+  .price-box{
+    position: absolute;
+    right: 0;
+    top: 8.85rem;
+    background-color: #202020;
+    color: white;
+    height: 3.2rem;
+    width: 6rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    line-height: 3.2rem;
+  }
+
+  .image-area{
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-used{
+    width: 20rem;
+  }
+
+  .extraimage img{
+    width: 100%;
+    background-color: #E5E5E5;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+  }
+
+  .extraimage img:hover{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.13);
+    background-color: white;
+    border: 1px solid #6c757d;
+  }
+
+}
+
+/* ------------------SMALLL LAPTOP CODE-------------------- */
+
+@media (min-width:769px) and (max-width: 1024px){
+
+  /* Containers */
+
+  .container{
+    position: relative;
+    padding: 10% 8% 0% 8%;
+    max-width: 100%;
+  }
+
+  .col-3{
+  flex: 0 0 auto;
+  width: 15%;
+  }
+
+
+  /* Main Button */
+
+  .main-btn{
+    position: fixed;
+    height: 3.6rem;
+    width: 83%;
+    border-radius: 1rem;
+    bottom: 2rem;
+    background-color: #202020;
+    color: white;
+    line-height: 3.6rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 500;
+    -webkit-box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  -moz-box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  }
+
+
+  /* Sections */
+
+  #header-section{
+    position: relative;
+  }
+
+  #title-section{
+    position: relative;
+    margin-top: 3rem;
+  }
+
+  #image-section{
+    margin-top: 2.5rem;
+  }
+
+  #extraimage-section{
+    margin-top: 2.5rem;
+  }
+
+  #extraimage-section .row{
+    justify-content: center;
+  }
+
+  #info-section{
+    margin-top: 2.6rem;
+    padding-bottom: 1rem;
+  }
+
+
+  /* Headers */
+
+  h1{
+    font-family: Playfair;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  h4{
+    font-family: Montserrat;
+    font-size:1.3rem;
+    font-weight: 700;
+  }
+
+  h5{
+    margin: 0;
+    align-self: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.1rem
+  }
+
+  h6{
+    display: inline-block;
+    background-color: #5599FF;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.3rem 0.8rem;
+    margin-top: 0.3rem;
+    border-radius: 0.3rem;
+  }
+
+  p{
+    margin-top: 1rem;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #BEBEBE;
+    line-height: 1.5;
+  }
+
+
+  .fa-xl{
+    font-size: 1.3em;
+  }
+
+  .fa-regular:hover{
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+    font-weight: 900;
+    transition-timing-function: ease-in-out;
+  }
+
+  .right-align{
+    position: absolute;
+    right: 0;
+    top: 13px;
+  }
+
+  .price-box{
+    position: absolute;
+    right: 0;
+    top: 11.8rem;
+    background-color: #202020;
+    color: white;
+    height: 3.2rem;
+    width: 9rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    line-height: 3.2rem;
+  }
+
+  .image-area{
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-used{
+    width: 20rem;
+  }
+
+  .extraimage img{
+    width: 100%;
+    background-color: #E5E5E5;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+  }
+
+  .extraimage img:hover{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.13);
+    background-color: white;
+    border: 1px solid #6c757d;
+  }
+
+}
+
+/* ------------------DESKTOP CODE-------------------- */
+
+@media (min-width:1025px){
+
+  /* Containers */
+
+  .container{
+    position: relative;
+    padding: 5% 8% 0% 8%;
+    max-width: 100%;
+  }
+
+  .col-3{
+  flex: 0 0 auto;
+  width: 7%;
+  }
+
+  .fa-angle-left{
+    display: none;
+  }
+
+
+  /* Main Button */
+
+  .main-btn{
+    position: fixed;
+    height: 3.6rem;
+    width: 83%;
+    border-radius: 1rem;
+    bottom: 2rem;
+    background-color: #202020;
+    color: white;
+    line-height: 3.6rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 500;
+    -webkit-box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  -moz-box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  box-shadow: 1px 28px 79px 41px rgba(219,219,219,1);
+  }
+
+
+  /* Sections */
+
+  #header-section{
+    position: relative;
+  }
+
+  #title-section{
+    position: relative;
+    margin-top: 3rem;
+  }
+
+  #image-section{
+    margin-top: 2.5rem;
+  }
+
+  #extraimage-section{
+    margin-top: 2.5rem;
+  }
+
+  #info-section{
+    margin-top: 2.6rem;
+    padding-bottom: 1rem;
+  }
+
+
+  /* Headers */
+
+  h1{
+    font-family: Playfair;
+    font-weight: 800;
+    font-size: 2.3rem;
+  }
+
+  h4{
+    font-family: Montserrat;
+    font-size:1.3rem;
+    font-weight: 700;
+  }
+
+  h5{
+    margin: 0;
+    align-self: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.1rem
+  }
+
+  h6{
+    display: inline-block;
+    background-color: #5599FF;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.3rem 0.8rem;
+    margin-top: 0.3rem;
+    border-radius: 0.3rem;
+  }
+
+  p{
+    margin-top: 1rem;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #BEBEBE;
+    line-height: 1.5;
+  }
+
+
+  .fa-xl{
+    font-size: 1.3em;
+  }
+
+  .fa-regular:hover{
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+    font-weight: 900;
+    transition-timing-function: ease-in-out;
+  }
+
+  .right-align{
+    position: absolute;
+    right: 0;
+    top: 13px;
+  }
+
+  .price-box{
+    position: absolute;
+    right: 0;
+    top: 11.8rem;
+    background-color: #202020;
+    color: white;
+    height: 3.2rem;
+    width: 9rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    line-height: 3.2rem;
+  }
+
+  .image-area{
+    display: flex;
+    justify-content: left;
+  }
+
+  .image-used{
+    width: 25rem;
+  }
+
+  .extraimage img{
+    width: 100%;
+    background-color: #E5E5E5;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+  }
+
+  .extraimage img:hover{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.1);
+    background-color: white;
+    border: 1px solid #6c757d;
+  }
+
+}
+
